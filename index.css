@@ -1,0 +1,61 @@
+body {
+    background-image: url("./pexels-brett-sayles-1431822.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: center;
+    height: 90vh;
+}
+
+.container {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather-container {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(228, 231, 237, 0.4);
+}
+
+form input {
+    border: 0;
+    padding: 6px 8px 6px 8px;
+    border-radius: 8px;
+    background-color: transparent;
+    border-bottom: 1px solid black
+}
+
+input:focus {
+    outline: none;
+}
+
+input::placeholder {
+    color: black;
+}
+
+form button {
+    padding: 5px 13px 5px 13px;
+    border-radius: 10px;
+    border: 0;
+    cursor: pointer;
+    margin-left: 10px;
+    background-image: linear-gradient(to right, rgb(112, 117, 255), rgb(42, 50, 250));
+    color: white;
+}
+
+h2 {
+    margin: 0;
+    margin-top: 40px;
+}
+
+.describe {
+    display: flex;
+    justify-content: center;
+}
+
